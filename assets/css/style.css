@@ -112,7 +112,9 @@ html {
 }
 
 #silder {
-    
+    height: 500px;
+    background: #f44336;
+    margin-top: 46px;
 }
 
 #content {
