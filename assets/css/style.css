@@ -35,6 +35,27 @@ html {
     text-align: center !important;
 }
 
+.pull-right {
+    float: right !important;
+}
+
+.btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px solid #000;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #FFF;
+    cursor: pointer;
+    
+}
+
 .mt-8 {
     margin-top: 8px !important;
 }
@@ -70,6 +91,10 @@ html {
 
 .col-third {
     width: 33.33%;
+}
+
+.col-4 {
+    width: 25%;
 }
 
 /* Main */
@@ -203,7 +228,7 @@ html {
 
 #content .content-section {
     width: 800px;
-    padding: 64px 0 64px 0;
+    padding: 64px 0 122px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -213,6 +238,15 @@ html {
     font-weight: 500;
     text-align: center;
     letter-spacing: 5px;
+    
+}
+
+#content .section-heading-blackpink{
+    font-size: 70px;
+    font-weight: 700;
+    background: linear-gradient(to right, #331d28 0%, #fd9fc3 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 #content .section-subheading {
@@ -236,7 +270,7 @@ html {
 }
 
 #content .member-name {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 #content .member-img {
@@ -286,7 +320,6 @@ html {
 
 .places-list {
     margin-top: 32px;
-    margin-bottom: 48px;
 }
 
 .place-img {
@@ -319,21 +352,6 @@ html {
     line-height: 1.4;
 }
 
-.place-buy-btn {
-    color: #fff;
-    background-color: #000;
-    text-decoration: none;
-    padding: 11px 16px;
-    display: inline-block;
-    margin-top: 15px;
-    border: 1px solid #000;
-}
-
-.place-buy-btn:hover {
-    color: #000;
-    background-color: #FFF;
-    
-}
 /* Contact from */
 .contact-conten {
     margin-top: 48px;
@@ -365,16 +383,36 @@ html {
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
 }
 
-.contact-from .form-submit-btn {
-    background-color: #000;
-    color: #fff;
-    border: 1px solid #000;
-    padding: 10px 16px;
-    float: right;
-}
+/* Map section */
 
+.map-section img{
+    width: 100%;
+}
 /* Footer section */
 
 #footer {
+    padding: 64px 16px;
+    text-align: center;
+}
 
+#footer .socials-list {
+    font-size: 24px;
+}
+
+#footer .socials-list a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+#footer .copyright a:hover,
+#footer .socials-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#footer .copyright {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#footer .copyright a {
+    color: rgba(0, 0, 0, 0.6);
 }
