@@ -47,6 +47,7 @@ html {
     display: inline-block;
 }
 
+
 #nav, .subnav {
     list-style-type: none;
 }
@@ -54,6 +55,7 @@ html {
 #nav > li {
     display: inline-block;
 }
+
 
 #nav li {
     position: relative;
@@ -71,9 +73,11 @@ html {
     display: block;
 }
 
+
 #nav li:hover .subnav {
     display: block;
 }
+
 
 #nav > li:hover > a,
 #nav .subnav li:hover a{
@@ -134,6 +138,8 @@ html {
     color: #fff;
     width: 100%;
     text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    
 }
 
 #slider .text-heading{
@@ -238,7 +244,67 @@ html {
     margin-top: -3px;
 }
 
+/*  */
+
+.places-list {
+    margin: 32px -8px 0 -8px;
+    padding-bottom: 48px;
+}
+
+.place-item {
+    float: left;
+    width: 33.33%;
+    padding: 0 8px;
+}
+
+.place-img {
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover {
+    opacity: 0.6;
+}
+
+.place-body {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+}
+
+.place-heading {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.place-time {
+    margin-top: 15px;
+    color: #757575;
+}
+
+.place-desc {
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.place-buy-btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px solid #000;
+}
+
+.place-buy-btn:hover {
+    color: #000;
+    background-color: #FFF;
+    
+}
+
 /* Footer section */
+
 #footer {
 
 }
