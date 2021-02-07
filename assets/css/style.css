@@ -21,6 +21,8 @@ html {
 3. Màu sắc
 4. Kiểu dáng 
 */
+
+/* Common */
 .clear {
     clear: both;
 }
@@ -29,6 +31,30 @@ html {
     color: #fff !important;
 }
 
+.text-center {
+    text-align: center !important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.33%;
+}
+
+/* Main */
 #main {
 
 }
@@ -191,12 +217,6 @@ html {
     margin-top: 48px;
 }
 
-#content .member-item {
-    float: left;
-    width: calc(100% / 3);
-    text-align: center;
-}
-
 #content .member-name {
     font-size: 15px;
 }
@@ -247,14 +267,8 @@ html {
 /*  */
 
 .places-list {
-    margin: 32px -8px 0 -8px;
-    padding-bottom: 48px;
-}
-
-.place-item {
-    float: left;
-    width: 33.33%;
-    padding: 0 8px;
+    margin-top: 32px;
+    margin-bottom: 48px;
 }
 
 .place-img {
