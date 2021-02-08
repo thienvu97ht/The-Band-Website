@@ -111,6 +111,7 @@ html {
     left: 0px;
     right: 0px;
     z-index: 1;
+    overflow: hidden;
 }
 
 #nav {
@@ -177,6 +178,7 @@ html {
 
 /* Search */
 
+#header .mobile-menu-btn,
 #header .search-btn {
     float: right;
     padding: 0 21px;
@@ -187,10 +189,20 @@ html {
     cursor: pointer;
 }
 
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
+
+
+#header .menu-icon,
 #header .search-icon {
     color: #fff;
     font-size: 20px;
     line-height: 46px;
+}
+
+#header .mobile-menu-btn:hover .mobile-icon {
+    color: #000;
 }
 
 /* Slider */
