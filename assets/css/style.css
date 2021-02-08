@@ -111,7 +111,6 @@ html {
     left: 0px;
     right: 0px;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav {
@@ -199,7 +198,7 @@ html {
     background-color: #ccc;
 }
 
-#header .mobile-menu-btn:hover .mobile-icon {
+#header .mobile-menu-btn:hover .menu-icon {
     color: #000;
 }
 
