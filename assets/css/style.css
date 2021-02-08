@@ -177,6 +177,12 @@ html {
 }
 
 /* Search */
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
 
 #header .mobile-menu-btn,
 #header .search-btn {
@@ -193,6 +199,9 @@ html {
     background-color: #ccc;
 }
 
+#header .mobile-menu-btn:hover .mobile-icon {
+    color: #000;
+}
 
 #header .menu-icon,
 #header .search-icon {
@@ -201,9 +210,6 @@ html {
     line-height: 46px;
 }
 
-#header .mobile-menu-btn:hover .mobile-icon {
-    color: #000;
-}
 
 /* Slider */
 
