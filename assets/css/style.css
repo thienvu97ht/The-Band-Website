@@ -247,7 +247,7 @@ html {
 #content .content-section {
     width: 800px;
     max-width: 100%;
-    padding: 64px 0 122px;
+    padding: 64px 0 80px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 16px;
@@ -263,7 +263,7 @@ html {
 }
 
 #content .section-heading-blackpink{
-    font-size: 70px;
+    font-size: 40px;
     font-weight: 700;
     background: linear-gradient(to right, #331d28 0%, #fd9fc3 100%);
 	-webkit-background-clip: text;
@@ -287,7 +287,7 @@ html {
 }
 
 #content .members-list {
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 #content .member-name {
@@ -340,7 +340,7 @@ html {
 /*  */
 
 .places-list {
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .place-img {
